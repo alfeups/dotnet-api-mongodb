@@ -1,0 +1,183 @@
+{
+	"info": {
+		"_postman_id": "2ce9bd58-8b92-fbff-44f3-66a64bb04d15",
+		"name": "api-dotnet-infectado",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Untitled Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/infectado",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"dataNascimento\": \"1990-03-01\",\n\t\"sexo\": \"M\",\n\t\"latitude\": -23.5630994,\n\t\"longitude\": -46.6565712\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/infectado",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"infectado"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:5000/infectado",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"dataNascimento\": \"1990-03-01\",\n\t\"sexo\": \"M\",\n\t\"latitude\": -23.5630994,\n\t\"longitude\": -46.6565712\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/infectado",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"infectado"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 29 Jun 2021 18:01:02 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "Infectado adicionado com sucesso"
+				}
+			]
+		},
+		{
+			"name": "Post - Infectado",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"dataNascimento\": \"1970-03-01\",\n\t\"sexo\": \"F\",\n\t\"latitude\": -21.7994511,\n\t\"longitude\": -48.1836042\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/infectado",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"infectado"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post - Infectado2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"dataNascimento\": \"1970-03-01\",\n\t\"sexo\": \"F\",\n\t\"latitude\": -21.7994511,\n\t\"longitude\": -48.1836042\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/infectado",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"infectado"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post - Infectado1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"dataNascimento\": \"1990-03-01\",\n\t\"sexo\": \"M\",\n\t\"latitude\": -23.5630994,\n\t\"longitude\": -46.6565712\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/infectado",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"infectado"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

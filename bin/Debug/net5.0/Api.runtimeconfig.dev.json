@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/alfeu/.dotnet/store/|arch|/|tfm|",
+      "/home/alfeu/.nuget/packages"
+    ]
+  }
+}
