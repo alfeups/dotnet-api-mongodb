@@ -7,6 +7,7 @@ Requisitos:
 <li>Postman;
 
  Cluster with data: <a href="img/Captura de tela de 2021-06-29 15-09-47.png">Here</a>
+ Postman requests: <a href="api-dotnet-infectado.postman_collection.json">Here</a>
 
 Checar versão do .NET:
 
