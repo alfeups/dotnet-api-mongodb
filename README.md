@@ -74,3 +74,5 @@ Agora criar uma controller, para tal, ir na pasta Controller e criar a classe In
 OBS: Poderia ser utilizado o AddSCoped, o singleton foi utilizado para criar uma instancia unica e mante-la em memória podendo ser requisitada. O singleton normalmente não é recomendando. Entretanto, foi usado neste examplo por conta dos maps.
 
 Para finalizar, injetar dependência no controller para não precisar ficar instanciando tudo na mão e desacoplar o código.
+ 
+ ``` "ConnectionString": "inserirlinkdocluster" ```
