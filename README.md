@@ -6,6 +6,7 @@ Requisitos:
 <li>Conta no MongoDB;
 <li>Postman;
 
+ Cluster with data: <a href="img/Captura de tela de 2021-06-29 15-09-47.png">Here</a>
 
 Checar versão do .NET:
 
